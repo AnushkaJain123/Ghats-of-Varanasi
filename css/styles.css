@@ -1,0 +1,274 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway";
+}
+
+p {
+  color: white;
+}
+
+/****** Headings*******/
+.big-heading {
+  font-family: "Raleway";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  margin: 20px 20px;
+}
+
+.section-heading {
+  font-size: 3.2rem;
+  line-height: 1.5;
+}
+
+/******* Containers *******/
+.Container-fluid {
+  padding: 7% 15%;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+  font-weight: lighter;
+}
+
+/****** Title ID Selector *******/
+#title {
+  background-image: linear-gradient(to right, #f76e11, #e1b206, #beff00);
+  /* color: white; */
+  text-align: left;
+}
+
+#title .Container-fluid {
+  padding: 3% 15% 7%;
+}
+
+#title.row {
+  background-color: rgba(249, 228, 212, 0.5);
+  border-top: 4px solid #2C3333;
+  padding: 2% 5% 2%;
+  /* text-align: center; */
+}
+
+.carousel-inner {
+  text-align: center;
+}
+
+/*  Buttons */
+.btn {
+  margin: 5% 5% 5%;
+}
+
+/* title image */
+.Title-image {
+  width: 70%;
+  height: 70%;
+  right: 30%;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+
+/* Features Section */
+#Features {
+  background-color: #f9e4d4;
+  position: relative;
+  border: 2px solid black;
+}
+
+.feature-titles {
+  font-size: 1.5rem;
+}
+
+.features-boxes {
+  padding: 5%;
+}
+
+.Feature-image {
+  width: 80%;
+  height: 80%;
+  border-radius: 10%;
+  border: 1px solid black;
+  margin: 10px;
+}
+
+/* About Section */
+#About {
+  background-color: #FC4F4F;
+  color: #fff;
+  padding: 3% 15% 2%;
+  text-align: center;
+  border: 2px solid black;
+}
+
+.about-heading {
+  text-align: center;
+  font-size: 1.8rem;
+  padding-top: 3%;
+}
+
+.About-image {
+  width: 20%;
+  height: 80%;
+  border-radius: 5%;
+  border: 2px solid black;
+}
+
+.About-video {
+  text-align: centre
+}
+
+/* Lists section */
+#Lists {
+  border: 2px solid black;
+  background-color: #f9e4d4;
+}
+
+.ghats-list {
+  text-align: center;
+  padding-top: 3%;
+}
+
+.Ghats {
+  height: 90%;
+  width: 80%;
+  border: 1px solid black;
+}
+
+.Ghats-name {
+  color: black;
+}
+
+
+
+/* Know More Section */
+#Know-more {
+  background-color: #FF9F45;
+  color: #fff;
+  border: 2px solid black;
+}
+
+.Know-more-image {
+  width: 8%;
+  height: 8%;
+  border: 1px solid black;
+}
+
+.Know-more-heading {
+  margin-top: 30px;
+}
+
+.Know-more-btn {
+  margin-top: 30px;
+  margin-bottom: auto;
+}
+
+/* Footer */
+#footer {
+  background-color: #f9e4d4;
+}
+
+.icon-footer {
+  margin: 20px 10px;
+}
+
+/* media qyery */
+@media (max-width:1028px) {
+
+  /* Navbar Section */
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+
+  /* Title Section */
+  #title {
+    text-align: center;
+  }
+
+  .big-heading {
+    font-size: 3.0rem;
+  }
+
+  .btn {
+    margin-bottom: 20px;
+  }
+
+  .Homepage-image {
+    position: static;
+    width: 40%;
+    height: 40%;
+  }
+
+  /* Feature Section */
+  .Feature-image {
+    width: 50%;
+    height: 60%;
+  }
+
+  /* About Section */
+  #About {
+    text-align: center;
+    padding: 3% 15% 2%;
+    position: static;
+  }
+
+  .About-image {
+    position: static;
+    width: 60%;
+    height: 70%;
+  }
+
+  .about-heading {
+    font-size: 1.0rem;
+  }
+
+  .About-video {
+    text-align: center;
+    padding-bottom: 3%;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Lists Section */
+  .section-heading {
+    font-size: 2.3rem;
+  }
+
+  .Ghats {
+    width: 50%;
+    height: 70%;
+    margin: auto;
+  }
+
+  /* Know More Section */
+  .Know-more-image {
+    width: 12%;
+    height: 18%;
+  }
+
+  .Know-more-heading {
+    font-size: 1.5rem;
+  }
+
+  .Know-more-btn {
+    width: 60%;
+    height: 20%;
+  }
+}
