@@ -190,7 +190,7 @@ p {
 }
 
 /* media qyery */
-@media (max-width:1028px) {
+@media (max-width:2400px) {
 
   /* Navbar Section */
   .navbar-brand {
